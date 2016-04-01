@@ -12,7 +12,7 @@ Premium: http://www.gridgum.com
 /* BASIC THEME CONFIGURATION */
 body {
     color: #797979;
-	background: #f2f2f2;
+	background: #A9F6A6;
     font-family: 'Ruda', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
@@ -428,7 +428,7 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #2E3F1B;
+    background: #3ADF00;
     border-bottom: 1px solid #058F82;
 }
 
