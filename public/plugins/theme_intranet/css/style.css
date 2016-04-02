@@ -12,10 +12,7 @@ Premium: http://www.gridgum.com
 /* BASIC THEME CONFIGURATION */
 body {
     color: #797979;
-    background-image: url('hola.png');
-    margin-left:500px;
-     background-position: top right;
- background-repeat: no-repeat;
+
     background-attachment: fixed;
     font-family: 'Ruda', sans-serif;
     padding: 0px !important;
@@ -23,6 +20,12 @@ body {
     font-size:13px;
 }
 
+.wrapper{
+
+        background-image: url('hola.png');
+ background-repeat: no-repeat;
+ min-height: 600px;
+}
 .remove-tab{
 
   position: absolute;
