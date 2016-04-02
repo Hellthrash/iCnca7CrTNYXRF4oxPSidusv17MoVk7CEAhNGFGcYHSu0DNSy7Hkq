@@ -9,7 +9,7 @@
                   <div class="form-panel">
                       <h4 class="mb"><i class="fa fa-angle-right"></i> Porfavor adjuntar los siguientes documentos</h4>
                       <form class="form-horizontal style-form" method="get">
-                         
+                       
 <input id="input-706" name="documentosAdjuntos[]" type="file" multiple=true class="file-loading">
                       </form>
                   </div>
@@ -126,7 +126,14 @@
 // the custom tags are in braces
     var footerTemplate = '<div class="file-thumbnail-footer">\n' +
     '   <div style="margin:5px 0">\n' +
-    '       <input class="kv-input kv-new form-control input-sm {TAG_CSS_NEW}" value="" placeholder="Ingrese el nombre">\n' +
+    '<select  class="kv-input kv-new form-control input-sm {TAG_CSS_NEW}" name="" id="">'+
+                       '<option value="">Seleccione documento</option>'+
+                       '<option value="1">Documento1</option>'+
+                       '<option value="2">Documento2</option>'+
+                       '<option value="3">Documento3</option>'+
+                       '<option value="4">Documento4</option>'+
+                       '<option value="5">Documento5</option>'+
+                  ' </select>\n'+
     '       <input class="kv-input kv-init form-control input-sm {TAG_CSS_INIT}" value="{TAG_VALUE}" disabled placeholder="Enter caption...">\n' +
     '   </div>\n' +
     '   {actions}\n' +
