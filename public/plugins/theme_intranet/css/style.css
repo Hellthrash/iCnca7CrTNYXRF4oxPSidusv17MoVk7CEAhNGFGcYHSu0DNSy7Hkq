@@ -22,7 +22,7 @@ body {
 
 .wrapper{
 
-        background-image: url('hola.png');
+        background-image: url('hola.jpg');
  background-repeat: no-repeat;
  min-height: 600px;
 }
@@ -259,7 +259,7 @@ ul.top-menu > li > .logout {
 }
 
 #sidebar h5 {
-	color: #f2f2f2;
+	color: #000000;
 	font-weight: 700;
 }
 
