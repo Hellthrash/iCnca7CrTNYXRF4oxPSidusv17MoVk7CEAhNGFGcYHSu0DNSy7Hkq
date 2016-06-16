@@ -255,7 +255,7 @@ ul.top-menu > li > .logout {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: #298A07;
+    background: #E2E0E3;
 }
 
 #sidebar h5 {
@@ -373,7 +373,7 @@ ul.sidebar-menu li a span{
 }
 
 ul.sidebar-menu li a{
-    color: #aeb2b7;
+    color: #000;
     text-decoration: none;
     display: block;
     padding: 15px 0 15px 10px;
@@ -387,7 +387,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #B9E2C2;
+    background: #2D852F;
     color: #fff;
     display: block;
 
@@ -436,7 +436,7 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #3ADF00;
+    background: #2D852F;
     border-bottom: 1px solid #058F82;
 }
 
